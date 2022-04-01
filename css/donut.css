@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header */
+body {
+  background-image: url(../assets/images/Background.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+header nav {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  background-color: white;
+  padding: 0 40px 0 40px;
+  border-radius: 10px;
+}
+header nav .logo img {
+  width: 107px;
+  height: 23px;
+  margin-right: 660px;
+}
+header nav .pages {
+  display: flex;
+  margin: auto;
+}
+header nav .pages .page {
+  margin-right: 41px;
+  font-size: 14px;
+  font-family: "DMSans-Medium";
+  color: #909090;
+}
+header nav .order-now {
+  width: 132px;
+  height: 50px;
+  border: 2px solid #fe707b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: "DMSans-Medium";
+  color: #fe707b;
+}
+/* layout/donuts */
+
+.layout .body {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.layout .body .donuts {
+  margin-top: 215px;
+  display: flex;
+  flex-direction: column;
+}
+.layout .body .donuts img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+.layout .body .donuts img:first-child {
+  width: 50px;
+  height: 50px;
+  margin-right: 70px;
+}
+.layout .body .donuts img:not(:first-child) {
+  margin-left: 5px;
+}
+
+/* Big-donut */
+
+.layout .body .big-donut img {
+  margin-top: 100px;
+  margin-right: 90px;
+  width: 490px;
+  height: 470px;
+}
+
+/* Text-box */
+
+.layout .body .text-box {
+  margin-top: 142px;
+}
+.layout .body .text-box h1 {
+  font-size: 56px;
+  font-family: "DMSans-Bold";
+  margin-bottom: 30px;
+  color: #fe707b;
+}
+.layout .body .text-box h3 {
+  color: #909090;
+  font-size: 16px;
+  font-family: "DMSans-Medium";
+  line-height: 34px;
+  width: 432px;
+  margin-bottom: 30px;
+}
+.layout .body .text-box .product {
+  display: flex;
+}
+.layout .body .text-box .product p {
+  margin-right: 62px;
+  font-size: 14px;
+  color: black;
+  font-family: "DMSans-Bold";
+  margin-bottom: 14px;
+}
+.layout .body .text-box .weight {
+  display: flex;
+}
+.layout .body .text-box .weight p {
+  margin-right: 92px;
+  font-size: 14px;
+  color: black;
+  font-family: "DMSans-Bold";
+  margin-bottom: 40px;
+}
+.layout .body .add-cart {
+  display: flex;
+}
+.layout .body .add-cart .numbers {
+  width: 90px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fe707b;
+  margin-right: 30px;
+}
+.layout .body .add-cart .add {
+  width: 359px;
+  height: 50px;
+  background-color: #fe707b;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
